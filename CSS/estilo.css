@@ -26,7 +26,7 @@ body {
     padding: 20px 80px;
 }
 
-/* Header y Navegación */
+
 .principal header {
     min-width: 100%;
     position: relative;
@@ -54,7 +54,7 @@ body {
     color: black;
 }
 
-/* Secciones de Contenido */
+
 .contenido {
     position: relative;
     width: 100%;
@@ -77,15 +77,15 @@ body {
     max-width: 600px;
 }
 
-/* Forzar que la sección académica ocupe más espacio hacia la derecha */
+
 #academico {
     justify-content: flex-start !important;
 }
 
 #academico .texto {
-    max-width: 100% !important; /* Permite que el texto abarque el espacio disponible de forma uniforme */
+    max-width: 100% !important; 
 }
-/* Alineación del Logo con el Título */
+
 .encabezado-titulo {
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@ body {
     display: block;
 }
 
-/* Tipografía */
+
 h2 {
     color: rgb(89, 8, 93);
     font-size: 2.8em;
@@ -131,7 +131,7 @@ p {
     margin-bottom: 8px;
 }
 
-/* Imágenes */
+
 img {
     width: 100%;
     max-width: 400px;
@@ -152,14 +152,14 @@ img {
     display: block;
 }
 
-/* Ajuste específico para mover la foto de 'Sobre mí' suavemente hacia la izquierda */
+
 #sobre-mi .imagen {
     margin-right: 40px;
 }
 .bloque-dos-columnas {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Alinea los dos bloques al ras de la parte superior */
+    align-items: flex-start; 
     gap: 40px;
     width: 100%;
     max-width: 1100px;
